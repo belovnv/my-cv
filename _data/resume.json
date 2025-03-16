@@ -1,0 +1,34 @@
+{
+    "name": "Иван Иванов",
+    "title": "Frontend-разработчик",
+    "contacts": {
+      "email": "ivan@example.com",
+      "phone": "+7 900 123-45-67",
+      "linkedin": "linkedin.com/in/ivan",
+      "github": "github.com/ivan"
+    },
+    "summary": "Разработчик с 3+ летним опытом в создании веб-приложений...",
+    "skills": ["JavaScript", "React", "Node.js", "CSS-in-JS", "Webpack"],
+    "experience": [
+      {
+        "company": "Компания А",
+        "position": "Middle Frontend-разработчик",
+        "period": "2021–н.в.",
+        "description": "Разработка корпоративного портала на React/Redux"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Университет Б",
+        "degree": "Бакалавр информатики",
+        "year": 2020
+      }
+    ],
+    "projects": [
+      {
+        "name": "Проект X",
+        "description": "Многостраничный сайт с анимациями",
+        "link": "example.com"
+      }
+    ]
+  }

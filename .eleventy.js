@@ -1,10 +1,10 @@
 module.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("icons"); // Добавьте эту строку
     return {
       dir: {
-        input: ".",        // Папка с исходными файлами (по умолчанию ".")
-        output: "docs",     // Папка для сгенерированного сайта (изменим на "docs" для GitHub Pages)
-        includes: "_includes", // Папка с шаблонами
-        data: "_data"       // Папка с данными (если нужна)
+        input: ".",
+        output: "_site"
       }
     };
   };

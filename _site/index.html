@@ -1,45 +1,80 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме - [Твоё Имя]</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <main>
-        <h1>[Твоё Имя]</h1>
-<h2>Контактная информация</h2>
-<ul>
-<li>Телефон: [Твой телефон]</li>
-<li>Email: [Твой email]</li>
-<li>LinkedIn: [Ссылка на LinkedIn]</li>
-<li>GitHub: [Ссылка на GitHub]</li>
-</ul>
-<h2>Опыт работы</h2>
-<h3>[Название компании 1]</h3>
-<p><strong>[Должность]</strong>  ([Даты работы])</p>
-<ul>
-<li>[Описание обязанностей и достижений]</li>
-</ul>
-<h3>[Название компании 2]</h3>
-<p><strong>[Должность]</strong>  ([Даты работы])</p>
-<ul>
-<li>[Описание обязанностей и достижений]</li>
-</ul>
-<h2>Образование</h2>
-<h3>[Название учебного заведения]</h3>
-<p><strong>[Специальность]</strong>  ([Даты обучения])</p>
-<h2>Навыки</h2>
-<ul>
-<li>[Навык 1]</li>
-<li>[Навык 2]</li>
-<li>[Навык 3]</li>
-<li>...</li>
-</ul>
-<h2>Обо мне (кратко)</h2>
-<p>[Твой текст о себе]</p>
+  
+<div class="resume-container">
+  <header class="header">
+    <h1>Иван Иванов</h1>
+    <p class="title">Frontend-разработчик</p>
+    <div class="contacts">
+      
+        
+          <div class="contact-item">
+            <img src="/icons/email.svg" alt="email" class="icon">
+            <span>ivan@example.com</span>
+          </div>
+        
+      
+        
+          <div class="contact-item">
+            <img src="/icons/phone.svg" alt="phone" class="icon">
+            <span>+7 900 123-45-67</span>
+          </div>
+        
+      
+        
+          <div class="contact-item">
+            <img src="/icons/linkedin.svg" alt="linkedin" class="icon">
+            <span>linkedin.com/in/ivan</span>
+          </div>
+        
+      
+        
+          <div class="contact-item">
+            <img src="/icons/github.svg" alt="github" class="icon">
+            <span>github.com/ivan</span>
+          </div>
+        
+      
+    </div>
+  </header>
 
-    </main>
+  <section class="section">
+    <h2>Опыт работы</h2>
+    
+      <div class="job">
+        <h3>Компания А – Middle Frontend-разработчик</h3>
+        <p class="period">2021–н.в.</p>
+        <p>Разработка корпоративного портала на React/Redux</p>
+      </div>
+    
+  </section>
+
+  <section class="section">
+    <h2>Образование</h2>
+    
+      <div class="education-item">
+        <h3>Университет Б</h3>
+        <p>Бакалавр информатики (2020)</p>
+      </div>
+    
+  </section>
+
+  <section class="section">
+    <h2>Проекты</h2>
+    <div class="projects-grid">
+      
+        <a href="example.com" class="project-card" target="_blank">
+          <h4>Проект X</h4>
+          <p>Многостраничный сайт с анимациями</p>
+        </a>
+      
+    </div>
+  </section>
+</div>
+
 </body>
 </html>

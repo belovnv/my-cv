@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }
