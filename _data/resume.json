@@ -1,6 +1,7 @@
 {
     "name": "Иван Иванов",
     "title": "Frontend-разработчик",
+    "photo": "/assets/avatar.jpg",
     "contacts": {
       "email": "ivan@example.com",
       "phone": "+7 900 123-45-67",

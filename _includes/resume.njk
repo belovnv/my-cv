@@ -3,6 +3,9 @@
 {% block content %}
 <div class="resume-container">
   <header class="header">
+    <!-- Новая строка с фото -->
+    <img src="{{ resume.photo }}" alt="Фото" class="avatar">
+    
     <h1>{{ resume.name }}</h1>
     <p class="title">{{ resume.title }}</p>
     <div class="contacts">

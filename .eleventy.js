@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("icons"); // Добавьте эту строку
+    eleventyConfig.addPassthroughCopy("assets");
+    eleventyConfig.addPassthroughCopy("icons");
     return {
       dir: {
         input: ".",
