@@ -1,19 +1,34 @@
-name: Build and Deploy Eleventy to GitHub Pages
+name: Lint, Build and Deploy Eleventy to GitHub Pages
 
 on:
   push:
     branches: [main]
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ESLint
+        run: npm run lint
+
   build-and-deploy:
+    needs: lint
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pages: write
       id-token: write
-
-  if: ${{ github.event.workflow_run.conclusion == 'success' }}
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
