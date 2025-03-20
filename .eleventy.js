@@ -1,4 +1,5 @@
 module.exports = function (eleventyConfig) {
+  // Копируем стили, иконки и изображения
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("icons");
@@ -8,6 +9,7 @@ module.exports = function (eleventyConfig) {
       input: ".",
       output: "_site",
     },
-    pathPrefix: "/my-cv/",
+    // Настройка базового пути для GitHub Pages
+    pathPrefix: "/",
   };
 };
