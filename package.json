@@ -4,7 +4,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "lint": "eslint --config eslint.config.js . --ext .js,.njk,.md"
+    "lint": "eslint . --ext .js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "eslint": "^9.22.0",
-    "eslint-plugin-html": "^8.1.2"
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-markdown": "^5.1.0"
   },
   "dependencies": {
     "aos": "^2.3.4"
