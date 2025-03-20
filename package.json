@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "lint": "eslint . --ext .js,.njk,.md"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "eslint": "^9.22.0"
   },
   "dependencies": {
     "aos": "^2.3.4"
