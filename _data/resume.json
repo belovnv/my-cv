@@ -1,18 +1,18 @@
 {
-  "name": "Иван Иванов",
+  "name": "Белов Никита",
   "title": "Frontend-разработчик",
   "photo": "assets/avatar.jpg",
   "contacts": {
-    "email": "ivan@example.com",
+    "email": "belovnv@example.com",
     "phone": "+7 900 123-45-67",
-    "linkedin": "linkedin.com/in/ivan",
-    "github": "github.com/ivan"
+    "linkedin": "linkedin.com/in/belovnv",
+    "github": "github.com/belovnv"
   },
   "summary": "Разработчик с 3+ летним опытом в создании веб-приложений...",
   "skills": ["JavaScript", "React", "Node.js", "CSS-in-JS", "Webpack"],
   "experience": [
     {
-      "company": "Компания А",
+      "company": "МОНЕТА РУ",
       "position": "Middle Frontend-разработчик",
       "period": "2021–н.в.",
       "description": "Разработка корпоративного портала на React/Redux"
@@ -20,15 +20,15 @@
   ],
   "education": [
     {
-      "institution": "Университет Б",
+      "institution": "ПГТУ",
       "degree": "Бакалавр информатики",
       "year": 2020
     }
   ],
   "projects": [
     {
-      "name": "Проект X",
-      "description": "Многостраничный сайт с анимациями",
+      "name": "Ensub Charge",
+      "description": "Веб-приложение для владельцев электромобилей",
       "link": "example.com"
     }
   ]
